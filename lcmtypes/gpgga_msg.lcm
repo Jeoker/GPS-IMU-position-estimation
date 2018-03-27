@@ -1,0 +1,11 @@
+package gps_struct;
+
+struct gpgga_msg {
+    float utc_time;
+    float lon;
+    float lat;
+    float alt;
+    float utm_x;
+    float utm_y;
+}
+

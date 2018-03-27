@@ -1,0 +1,10 @@
+#/usr/bin/env bash
+
+lcm-gen -p gpgga_msg.lcm
+lcm-gen -p imu_msg.lcm
+./buildjar.sh
+#sudo chmod 666 /dev/ttyUSB0
+#lcm-logger -s ./log/lcm-log-%F-%T &
+#python My_GPS_Sender.py &
+#./runspy.sh
+#kill %1 %2 %3 %4 %5 %6 %7 %8 %9 %0
